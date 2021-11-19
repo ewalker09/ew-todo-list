@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
-import Todo from "./components/Todo";
 import Typography from "@material-ui/core/Typography";
 
 const LOCAL_STORAGE_KEY = "todo-list-todos"
